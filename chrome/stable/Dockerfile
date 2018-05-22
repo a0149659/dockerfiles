@@ -12,7 +12,7 @@
 #	--device /dev/snd \ # so we have sound
 #	-v /dev/shm:/dev/shm \
 #	--name chrome \
-#	jess/chrome
+#	chrome
 #
 # You will want the custom seccomp profile:
 # 	wget https://raw.githubusercontent.com/jfrazelle/dotfiles/master/etc/docker/seccomp/chrome.json -O ~/chrome.json
