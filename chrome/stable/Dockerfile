@@ -15,6 +15,9 @@
 #	chrome
 #
 ### DEBIAN
+## DISPLAY should equal ":0"
+## execute xhost + to make sure
+##
 # docker run --privileged -it --net host \
 # --cpuset-cpus 0 --memory 512mb \
 # -v /tmp/.X11-unix:/tmp/.X11-unix \
